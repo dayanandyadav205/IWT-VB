@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    text-align: center;
+    /* align-content: space-between; */
+    justify-content: space-between;
+    background-color: #060845;
+    color: white;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    /* padding: 40px; */
+    background-color: #060845;
+
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: #06B6D4;
+}
+
+nav ul li {
+    display: flex;
+    padding: 10px;
+}
+
+nav ul .dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul .dropdown-menu {
+    display: none;
+    position: absolute;
+}
+
+nav ul .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.Aside-Main {
+    display: flex;
+}
+
+aside .myintro {
+    background-color: #060845;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+
+aside img {
+    width: 100px;
+    height: 100px;
+
+}
+
+main .iwt5 {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+main div {
+    border: 2px solid black;
+    padding: 20px;
+
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Footer CSS */
+footer {
+    background-color: #060845;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+/* Responsive Layout for Mobiles/tablets */
+
+@media(max-width:768px) {
+    body {
+        font-size: 80%;
+    }
+
+    body img {
+        width: 20%;
+        height: 20%;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 30px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li.dropdown {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        width: 100%;
+        margin-top: 0;
+        background-color: blanchedalmond;
+    }
+
+    .dropdown-menu a {
+        color: black;
+    }
+
+
+    footer {
+        text-align: center;
+        font-size: 60%;
+    }
+}
