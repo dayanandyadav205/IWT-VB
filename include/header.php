@@ -34,10 +34,14 @@
             <!-- HTML topic dropdown -->
             <li class="dropdown"><a href="#">HTML Topics</a>
                 <ul class="dropdown-menu">
-                    <li><a href="/HTML_Topics/HTML_headings.php">HTML_Headings</a></li>
-                    <li><a href="/HTML_Topics/text_formatting.html">Text Formatting</a></li>
-                    <li><a href="/HTML_Topics/color.html">HTML Color</a></li>
-                    <li><a href="/HTML_Topics/horizontal-navigation.php">Horizontal Navigation</a></li>
+                    <li><a href="/HTML_Topics/horizontal-navigation.php" target="_blank">Horizontal Navigation</a></li>
+                    <li><a href="/HTML_Topics/text_formatting.php" target="_top">Text Formatting</a></li>
+                    <li><a href="/HTML_Topics/fonts.php">Fonts</a></li>
+                    <li><a href="/HTML_Topics/color.php">Color</a></li>
+                    <li><a href="/HTML_Topics/list.php">List</a></li>
+                    <li><a href="/HTML_Topics/table.php">Table</a></li>
+                    <li><a href="/HTML_Topics/images.php">Images</a></li>
+                    <li><a href="/HTML_Topics/forms.php">Forms</a></li>
                 </ul>
             </li>
 

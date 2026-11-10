@@ -12,8 +12,6 @@
  <!-- Header Section -->
     <?php include './include/header.php'; ?>
 
-    <h1>hht</h1>
-
     <!-- link for mysql section -->
      <a href="#mysql">jump to MYSQL Section</a>
 
@@ -107,7 +105,7 @@
 
     <a href="#top">Go to top</a>
 
-    
+    <?php include './include/footer.php'; ?>
 </body>
 
 </html>

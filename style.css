@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body{
+    background-color: #F8F9FA;
+    color: slategray;
+}
+
 
 header {
     display: flex;
@@ -159,6 +164,10 @@ footer p {
         color: black;
     }
 
+.Aside-Main{
+    display: block;
+    /* flex-direction: column; */
+}
 
     footer {
         text-align: center;
