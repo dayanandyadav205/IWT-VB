@@ -1,3 +1,7 @@
+<?php
+include '../HTML_Topics/forms.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

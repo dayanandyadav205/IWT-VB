@@ -49,8 +49,14 @@
             <li class="dropdown"><a href="#">CSS Topics</a>
                 <ul class="dropdown-menu">
                     <li><a href="/CSS_Topics/selectors.html">CSS Selectors</a></li>
-
                 </ul>
+            </li>
+
+            <li>
+                <a href="/signup.php">Sign Up</a>
+            </li>
+            <li>
+                <a href="/login.php">Login</a>
             </li>
         </ul>
     </nav>
