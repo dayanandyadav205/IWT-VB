@@ -6,6 +6,8 @@
 body{
     background-color: #F8F9FA;
     color: slategray;
+    font-family: sans-serif;
+    /* font-size: 150%; */
 }
 
 
@@ -110,7 +112,7 @@ footer p {
 
 @media(max-width:768px) {
     body {
-        font-size: 80%;
+        font-size: 70%;
     }
 
     body img {

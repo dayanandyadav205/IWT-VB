@@ -42,6 +42,7 @@
                     <li><a href="/HTML_Topics/table.php">Table</a></li>
                     <li><a href="/HTML_Topics/images.php">Images</a></li>
                     <li><a href="/HTML_Topics/forms.php">Forms</a></li>
+                <li><a href="/HTML_Topics/xhtml.php">XHTML</a></li>
                 </ul>
             </li>
 

@@ -4,16 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    !-- Define a description of your web page: -->
+    <meta name="description" content="IWT5 is an educational web development and programming resource platform 
+created by Dayanand Yadav, an Assistant Professor in the Computer Science & Engineering Department at Chameli 
+Devi Group of Institutions (CDGI) in Indore, India.">
+
+<!-- Define keywords for search engines: -->
+<meta name="keywords" content="HTML, CSS, JavaScript, PHP, MySQL">
+
+<!-- Define the author of a page: -->
+<meta name="author" content="Dayanand Yadav">
+
+<!-- !-- Refresh document every 30 seconds: --> -->
+<meta http-equiv="refresh" content="3">
+
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
- <!-- Header Section -->
+    <!-- Header Section -->
     <?php include './include/header.php'; ?>
 
     <!-- link for mysql section -->
-     <a href="#mysql">jump to MYSQL Section</a>
+    <a href="#mysql">jump to MYSQL Section</a>
 
     <!-- Aside + main section -->
     <div class="Aside-Main">
@@ -34,7 +48,7 @@
         <main>
             <div class="iwt5">
                 <img src="images/nba.png" alt="CDGI Image">
-                <h1>IWT5</h1>
+                <h1>IWTdfggdfhdfhdfh</h1>
                 <p>
                     IWT5 is an educational web development and programming resource platform created by Dayanand Yadav,
                     an
